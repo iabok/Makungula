@@ -1,0 +1,54 @@
+#meerkat {display: none;}
+
+#demoLogo {
+	position: absolute;
+	left: 10px;
+	top: 0;
+}
+
+#buyButton {
+	float: right;
+	margin: 15px 0 0 15px;
+}
+
+#browseButton {
+	float: right;
+	margin: 15px 0 0 15px;
+}
+
+#close {
+	float: right;
+	margin: 15px 15px 0 15px;
+}
+
+.demoButton {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	font-size: 12px;
+	background: #2f2f2f url(http://themetrust.com/demos/demo_bar/images/btn_bkg.png) repeat-x;	
+	display: inline-block;	
+	color: #fff!important;
+	text-decoration: none;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.3);	
+	position: relative;
+	cursor: pointer;
+	font-weight: bold;	
+	padding: 4px 15px 5px;
+	border: none;	
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	margin: 0 5px 0 0;
+}
+
+.demoButton:hover {
+	background-color: #515151;
+}
+
+.demoButton.green {
+	background-color: #539432;
+}
+
+.demoButton.green:hover {
+	background-color: #63b23d;
+}
